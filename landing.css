@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    background-color: #eee;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 700px);
+    grid-column-gap: 1.2%;
+    position: fixed;
+    background-color: #eee;
+    padding: 15px;
+    top: 0px;
+}
+#header-img {
+    max-width: 300px;
+    padding-left: 30px;
+}
+#page_tabs {
+    list-style: none;
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tab {
+    text-decoration: none;
+    color: black;
+}
+
+#structure {
+    padding-left: 170px;
+    padding-right: 170px; 
+}
+#presentation {
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+#title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#email {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#input-email {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+#submit {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: #ffd30f;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    margin: 15px 0;
+    border: 0;
+}
+
+#premium-materials {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    padding-bottom: 30px;
+}
+#fast-shipping {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    padding-bottom: 30px;
+}
+#quality-assurance {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    padding-bottom: 30px;
+}
+.sub-title {
+    margin-bottom: -15px;
+}
+.img {
+    padding-left: 90px; 
+    padding-top: 20px;
+}
+#shipping-icon {
+    padding-top: 35px;
+}
+
+#video {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#prices {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#tenor-trombone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+#bass-trombone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+#valve-trombone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.title-music {
+    background-color: #ddd;
+    color: black;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.list {
+    padding-left: 0px;
+    list-style: none;
+    margin-top: 0px;
+}
+.lorem {
+    padding-bottom: 8px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding-bottom: 10px;
+}
+#other-options {
+    display: flex;
+    justify-content: flex-end;
+}
+.opt {
+    list-style: none;
+    padding-right: 25px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+.enlace {
+    text-decoration: none;
+    color: #000;
+}
+#copyright {
+    font-size: 0.9em;
+    color: #444;
+    text-align: end;
+    padding-right: 20px;
+    margin-top: -10px;
+}
+
+@media (max-width:800px) {
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px 0px 0px;
+    }
+    #header-img {
+        padding: 15px 0px 10px 0px;
+    }
+    #page_tabs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 5px;
+    }
+    .tab {
+        padding-bottom: 5px;
+    }
+   #structure {
+        padding-left: 10px;
+        padding-right: 10px; 
+    }
+    #presentation {
+        margin-top: 170px;
+        margin-bottom: 30px;
+    }
+    #title {
+        text-align: center;
+    }
+    .img {
+        padding-left: 30px; 
+        padding-top: 20px;
+    }
+    .sub-title {
+        padding-left: 30px;
+    }
+    p {
+        padding-left: 30px;
+    }
+    #prices {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #tenor-trombone {
+        width: 300px;
+    }
+    #bass-trombone {
+        width: 300px;
+    }
+    #valve-trombone {
+        width: 300px;
+    }
+}
